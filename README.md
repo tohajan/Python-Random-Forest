@@ -18,6 +18,42 @@ The primary model is a Random Forest classifier implemented in `scikit-learn`, w
 
 ---
 
+## Methods Overview
+- **Language/Stack:** Python, Jupyter Notebook  
+- **Core Libraries:**  
+  - `pandas`, `numpy` for data handling  
+  - `scikit-learn` for modeling + evaluation  
+  - `imblearn` for SMOTE  
+  - `matplotlib` & `seaborn` for visualization  
+- **Model:** Random Forest Classifier  
+- **Evaluation:** Confusion matrix, classification report, ROC-AUC, PR-AUC
+
+---
+
+## Summary of Findings
+- Baseline Random Forest achieved strong performance for the majority class but weak recall for the minority (“Yes”) class.
+- Adding `class_weight='balanced'` did not substantially improve minority-class detection.
+- SMOTE increased recall but did not meaningfully improve precision or overall discriminative ability.
+- Results suggest that *feature limitations*, rather than algorithm choice, are the primary bottleneck.
+
+A detailed narrative interpretation of these findings is included at the end of the notebook.
+
+---
+
+## Future Work
+- Try gradient boosting models (XGBoost, LightGBM).
+- Apply threshold-moving to improve recall.
+- Explore domain-informed feature engineering.
+- Collect richer predictive features.
+
+---
+
+## License
+This project is released for educational and portfolio purposes.  
+Feel free to fork and adapt.
+
+
+
 ## Repository Structure
 
 ├── data/ # Source dataset  
