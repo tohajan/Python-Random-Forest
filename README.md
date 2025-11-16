@@ -1,7 +1,7 @@
 # Depression Classification Using Random Forests  
 ### Handling Class Imbalance with Class Weights and SMOTE
 
-This project explores the use of supervised machine learning to predict depressive symptoms (“Yes” vs. “No”) using a survey-based dataset. The notebook walks through a full applied ML workflow in Python, including data preprocessing, model training, evaluation, and class-imbalance mitigation techniques.
+This project explores the use of supervised machine learning to predict depressive symptoms (“Yes” vs. “No”) using a survey-based dataset (National Helath Interview Survey[NHIS] 2020). The notebook walks through a full applied ML workflow in Python, including data preprocessing, model training, evaluation, and class-imbalance mitigation techniques.
 
 The primary model is a Random Forest classifier implemented in `scikit-learn`, with multiple strategies tested to improve minority-class performance.
 
