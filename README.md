@@ -20,6 +20,6 @@ The primary model is a Random Forest classifier implemented in `scikit-learn`, w
 
 ## Repository Structure
 
-├── Predicting depression_RandomForest.ipynb # Main notebook
-├── data/ # Source dataset
+├── Predicting depression_RandomForest.ipynb # Main notebook  
+├── data/ # Source dataset  
 └── README.md # Overview + documentation
